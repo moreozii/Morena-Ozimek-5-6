@@ -1,0 +1,123 @@
+/* ESTILOS GENERALES */
+nav{
+    background-color: #020202;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: #75B836;
+}
+
+.btn {
+    background-color: #000000a8;
+    color: #75B836;
+    transition: .3s;
+}
+
+
+.btn:hover {
+    background-color: #75B836;
+    color: #000000;
+}
+
+.container-fluid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.divProd{
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #75B836;
+}
+
+.divProd button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; 
+}
+
+.divNombrePrecio{
+    display: flex;
+
+    margin: 5px;
+}
+
+#user-pic{
+    height: 35px;
+    border-radius: 20px;
+  }
+  
+  .ParteUsuario{
+    display: flex;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;
+    gap: 10px;
+    color: antiquewhite;
+  }
+
+/* TIENDA */
+#bienvenidaTienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#agregarProductos{
+    display: flex;
+    background-color: #75B836;
+    justify-content: center;
+    align-items: center;
+}
+
+#agregarProductos form{
+    background-color: #75B836;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+}
+
+/* SESION */
+
+
+#EstiloLogin{
+    background-color: #75B836;
+    border-radius: 15px;
+    display: flex; /* Habilita el modelo de flexbox */
+    flex-direction: column; /* Coloca los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 40vh; /* Establece la altura del contenedor al 100% de la ventana */
+    width: 60vh;
+    margin-top: 25vh;
+}
+
+#EstiloLogin form{
+    display: flex; /* Habilita el modelo de flexbox */
+    flex-direction: column; /* Coloca los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    gap:15px
+  }
+
+  #EstiloLogin form input{
+    border-radius: 5px;
+    height: 30px;
+  }
